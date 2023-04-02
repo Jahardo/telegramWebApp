@@ -34,7 +34,7 @@ const Form = () => {
     }, [word, definition])
     return (
         <div className={"form"}>
-            <h1>Заповніть данні</h1>
+            <h1>Введіть дані </h1>
             <label className={"label"}>Word</label>
             <input placeholder={"write word"} type={"text"} className={"input"} value={word}
                    onChange={e => setWord(e.target.value)}/>
