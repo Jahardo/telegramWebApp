@@ -39,7 +39,7 @@ const Form = () => {
             <input placeholder={"write word"} type={"text"} className={"input"} value={word}
                    onChange={e => setWord(e.target.value)}/>
             <label className={"label"}>Definition</label>
-            <input placeholder={"write definition of wordnp"} type={"text"} className={"input"} value={definition}
+            <input placeholder={"write definition of word"} type={"text"} className={"input"} value={definition}
                    onChange={e => setDefinition(e.target.value)}/>
         </div>
     );
